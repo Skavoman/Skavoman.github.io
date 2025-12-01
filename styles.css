@@ -44,25 +44,25 @@ body {
   display: block
 }
 
-/* Mobile-specific adjustments */
-  @media only screen and (max-width: 767px) {
-    .banner-ad {
-      width: 110px;
-      top: 150px;
-      bottom: 20px;
-      transform: none;
-    }
-  }
 
-/* Mobile-specific adjustments */
-  @media only screen and (max-width: 767px) {
-    .banner-ad2 {
-      width: 110px;
-      top: 150px;
-      bottom: 20px;
-      transform: none;
-    }
+@media only screen and (max-width: 767px) {
+  .banner-ad {
+    width: 110px;
+    top: 150px;
+    bottom: 20px;
+    transform: none;
   }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .banner-ad2 {
+    width: 110px;
+    top: 150px;
+    bottom: 20px;
+    transform: none;
+  }
+}
 
 .imgtext {
   text-align: justify;
