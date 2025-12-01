@@ -7,7 +7,7 @@ body {
 .banner-ad {
   position: fixed;
   top: 50%;
-  right: 20px;
+  right: 1.5vw;
   transform: translateY(-50%);
   width: 10vw;       /* 10% of the viewport width */
   min-width: 100px;  /* Won't shrink below 100px */
@@ -28,7 +28,7 @@ body {
 .banner-ad2 {
   position: fixed;
   top: 50%;
-  left: 20px;
+  left: 1.5vw;
   transform: translateY(-50%);
   width: 10vw;       /* 10% of the viewport width */
   min-width: 100px;  /* Won't shrink below 100px */
@@ -42,26 +42,6 @@ body {
   border: 1px solid #ccc;
   box-shadow: -2px 0 5px rgba(0,0,0,0.2);
   display: block
-}
-
-
-@media only screen and (max-width: 767px) {
-  .banner-ad {
-    width: 110px;
-    top: 150px;
-    bottom: 20px;
-    transform: none;
-  }
-}
-
-
-@media only screen and (max-width: 767px) {
-  .banner-ad2 {
-    width: 110px;
-    top: 150px;
-    bottom: 20px;
-    transform: none;
-  }
 }
 
 .imgtext {
