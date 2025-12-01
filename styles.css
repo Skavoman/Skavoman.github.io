@@ -5,21 +5,23 @@ body {
 }
 
 .banner-ad {
-  position: fixed;       
-  top: 50%;             
+  position: fixed;
+  top: 50%;
   right: 20px;
   transform: translateY(-50%);
   width: 10vw;       /* 10% of the viewport width */
   min-width: 100px;  /* Won't shrink below 100px */
   max-width: 200px;  /* Won't grow beyond 200px */
-  background-color: #FDFD57;
-  border: 1px solid #ccc;
-  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
-  z-index: 1000;   
-}
+  z-index: 1000;
+ }
 
 .banner-ad img {
   width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+  display: block
+
 }
 
 
@@ -31,14 +33,15 @@ body {
   width: 10vw;       /* 10% of the viewport width */
   min-width: 100px;  /* Won't shrink below 100px */
   max-width: 200px;  /* Won't grow beyond 200px */
-  background-color: #FDFD57;
-  border: 1px solid #ccc;
-  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
   z-index: 1000;         
 }
 
 .banner-ad2 img {
   width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+  display: block
 }
 
 /* Mobile-specific adjustments */
