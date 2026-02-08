@@ -6,6 +6,7 @@ body {
 
 .banner-ad {
   position: fixed;
+  display: none;
   top: 50%;
   right: 1.5vw;
   transform: translateY(-50%);
@@ -27,6 +28,7 @@ body {
 
 .banner-ad2 {
   position: fixed;
+  display: none;
   top: 50%;
   left: 1.5vw;
   transform: translateY(-50%);
@@ -52,4 +54,16 @@ body {
 .imgtext img {
   display: block
   margin: 0 auto;
+}
+
+@media (min-width: 600px){
+  .banner-ad {
+    display: block;
+  }
+}
+
+@media (min-width: 600px){
+  .banner-ad2 {
+    display: block;
+  }
 }
